@@ -25,14 +25,18 @@ backgroundImage: `url(${"https://www.transparenttextures.com/patterns/scribble-l
     
   
   title: {
+    position: "absolute",
     fontWeight: "bold",
     fontSize: "26px"
   },
 
   fap: {
 
-    paddingTop: "6.8%",
-    paddingLeft: "83%",
+    alignSelf: "baseline",
+    position: "absolute",
+    right: "12vw",
+    // paddingTop: "6.8%",
+    // paddingLeft: "83%",
 
   }
 }));
